@@ -1,9 +1,14 @@
 import React from 'react';
 import './app.scss';
+import NavBar from './components/NavBar';
+import Search from './components/Search';
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <NavBar />
+      <Search />
     </div>
   );
 }

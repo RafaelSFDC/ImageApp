@@ -2,8 +2,8 @@ import React from 'react'
 
 const NavBar = () => {
     return (
-        <div>
-            
+        <div className="navbar">
+            <h1>Zero Images</h1>
         </div>
     )
 }
